@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-widt, initial-scale=1.0">
+        <title>Tanuthum Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/62645eb21c.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+            <nav>
+                <img class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#work">Computer Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars-staggered" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Student Portfolio</p>
+                <h1>I'm<span> Tanuthum Peekeaw</span><br>from Mathayom Taksin Rayong</h1>
+                <img id="first-pic" src="image-removebg-preview (1).png" style="height: 200px; width: 200px; left: 30px;">
+            </div>
+            </div>
+        </div>
+            <div class="scroll-down">
+                <a href="#"><i class="ri-arrow-down-circle-line"></i></a>
+            </div>
+            <span class="home-imghover"></span>
+            <span class="text-imghover"></span>
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="MTXX_MH20231019_203822628.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="subtitle">About Me</h1>
+                        <p class="subtitle-info">
+                            <span>Name : Tanuthum Peekeaw</span><br>
+                            <span>Nickname : Boss</span><br>
+                            <span>Birthday : 7/9/2005</span><br>
+                            <span>School : MTRS</span><br>
+                            <span>Lesson Plan : SME</span><br>
+
+                        </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('activity')">Activity</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                            <p class="tab-links" onclick="opentab('certificate')">Certificate</p>
+                            <p class="tab-links" onclick="opentab('transcript')">Transcript</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Python</span></li><br>
+                                <li><span>HTML</span></li><br>
+                                <li><span>CSS</span></li><br>
+                                <li><span>Java Script</span></li><br>
+                                <li><span>C language</span></li><br>
+                                <li><span>Arduino</span></li><br>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="activity">
+                            <div class="activity">
+                            <ul>
+                                <img src="1692940812526.jpg">
+                                <img src="received_615305036984104.jpg">
+                                <img src="IMG_20221228_084139.jpg">
+                                <img src="IMG_20230819_091341.jpg">
+                                <img src="FB_IMG_1698089625388.jpg">
+                                <img src="FB_IMG_1698089633459.jpg">
+                            </ul>
+                            </div>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <div class="education">
+                                <ul>
+                                    <li><span>Primary School</span></li>
+                                    <img src="image-removebg-preview (2).png">
+                                    <li><span>High School</span></li>
+                                    <img src="image-removebg-preview (1).png">
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="tab-contents" id="certificate">
+                            <div class="certificate"> 
+                                <ul>
+                                    <img src="https://media.discordapp.net/attachments/603558735910010880/1164559787602751568/certificate_Key_67___42194.png?ex=6543a7d1&is=653132d1&hm=b60b074a40d13cb5352adf773b73cb4681a84eff9d22cc743b7bb27f4db35a67&=&width=947&height=670">
+                                    <img src="https://media.discordapp.net/attachments/603558735910010880/1112084673640808578/1685212035160.jpg?ex=65468d0f&is=6534180f&hm=df6f8e3fb1682fa61469dd045bd97bf93e42b9e3910dcc32cb3830e941367ffb&=&width=956&height=670">
+                                    <img src="https://cdn.discordapp.com/attachments/603558735910010880/1164896950286549042/image.png?ex=6544e1d3&is=65326cd3&hm=3605d0f203d3df29f66404483dc6079de49f924de725c68018894d6f29b965ad&">
+                                    <img src="https://media.discordapp.net/attachments/603558735910010880/1164559788647141477/TGATPORT_EXPO_2023_20231017_182126_0000.png?ex=6543a7d2&is=653132d2&hm=3958c49197d93d10b29c91dbdb7586c0220d6a5bf50b0ada15c53ccbe26d6056&=&width=890&height=670">
+                                    <img src="https://cdn.discordapp.com/attachments/603558735910010880/1167174435250376774/IMG_20231027_015305.jpg?ex=654d2ae6&is=653ab5e6&hm=906ef3840c9aff7acc3e8e12f3a325c88d22bd6bd5adee8c087c2dde80011720&">
+                                    <img src="https://cdn.discordapp.com/attachments/603558735910010880/1167174435581743217/IMG_20231027_015405.jpg?ex=654d2ae6&is=653ab5e6&hm=97cc154bb9a8ac57d8a507ce9f5f051acd3bbfeee381f9bcc225c1ce5820a303&">
+                                    <img src="https://media.discordapp.net/attachments/603558735910010880/1164560109670772786/IMG_20230528_013248.jpg?ex=6543a81e&is=6531331e&hm=e2723de86c17b76af3833c9d7f64a2a0588c6342b09948f190337fbdabd1954b&=&width=980&height=670">
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="tab-contents" id="transcript">
+                            <ul>
+                                <div class="transcrip">
+                                    <img src="Transcip1.jpg">
+                                    <img src="Transcip2.jpg">
+                                    <li><span>GPAX : 3.86</span></li>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--------------------portfolio--------------->
+        <div id="project">
+            <div class="container">
+                <h1 style="text-align: center; font-size: 40px;">My Project</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="https://media.discordapp.net/attachments/603558735910010880/1176170581230637097/Screenshot_2023-11-20-21-41-34-229_com.instagram.android-edit.jpg?ex=656de536&is=655b7036&hm=6d94bcd12a7bd163cdf798481587a41e3ad4a582447c18db21962fd01d97233e&=&width=363&height=670">
+                        <div class="layer">
+                            <h3>XO Game</h3>
+                            <p>Website Xo game สำหรับคลายเครียดเล่นกับเพื่อน 2 คน เวลาว่างๆ</p>
+                            <a href="https://bossnoping.github.io/XO/"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="BMI pic.jpg">
+                        <div class="layer">
+                            <h3>BMI Calculator</h3>
+                            <p>Website สำหรับคำนวณค่า bmi หรือ ค่าดัชนีมวลกาย เพื่อให้ทราบว่าตนเองรูปร่างอยู่ในระดับใด และทราบอัตราเสี่ยงต่อการเกิดโรคต่างๆ ของตนเอง</p>
+                            <a href="https://bossnoping.github.io/BMI/"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="https://media.discordapp.net/attachments/603558735910010880/1168602301917839370/Screenshot_2023-10-31-00-26-56-176_com.miui.gallery-edit.jpg?ex=65525cb4&is=653fe7b4&hm=9fb70521df6b1a5bebd079b298b214fb40e5fe55097112554fde3759e191828c&=&width=327&height=581">
+                        <div class="layer">
+                            <h3>Auto Plant Watering</h3>
+                            <p>โครงงานวิทยาศาสตร์ รายวิชาการงนอาชีพได้ประดิษฐ์สิ่งประดิษฐ์เพื่อแก้ไขปัญหาในชีวิตประจำวัน เพื่อลดค่าใช้จ่าย จึงได้จัดทำกระถ่างรดน้ำต้นไม้ตามเวลาที่กำหนด</p>
+                            <a href="https://youtube.com/shorts/O1MvoXelugs?feature=share"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+        <!--------------------------computerwork---------->
+        <div id="work">
+            <div class="contrainer">
+                <h1 style="text-align: center; font-size: 40px;">My Computer Work</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-video"></i>
+                        <h2>Video Editing</h2>
+                        
+                        <video controls autoplay muted loop width="300">
+                            <source src="weathering.mp4">
+                        </video>
+                        <a href="video.html">Other</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-images"></i>
+                        <h2>Graphic Design</h2>
+                        
+                        <img src="https://media.discordapp.net/attachments/603558735910010880/1168107649485778944/PicsArt_12-17-12.36.52.jpg?ex=65509006&is=653e1b06&hm=f58df22fbeedfa9d293a347b3cdf1992fb8907bc751af84802766bc5d7451805&=&width=467&height=580" style="height: 150px;">
+                        <img src="https://media.discordapp.net/attachments/603558735910010880/1168107649078939678/PicsArt_12-17-01.13.40.jpg?ex=65509005&is=653e1b05&hm=87eb4da22bfc7bb8ba81250441a51a137539e21e556835d2293d681bd0baae88&=&width=581&height=581" style="height: 150px;">
+                        <a href="video.html">Other</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-unity"></i>
+                        <h2>3D Modeling</h2>
+                        
+                        <img src="https://media.discordapp.net/attachments/603558735910010880/1168248575189332059/IMG_20231030_010226.png?ex=65511345&is=653e9e45&hm=df362a3eb92ea91722d93aef091d9c67284213dcf8ca79ad820ebc465bd1a48f&=&width=582&height=581" style="height: 140px;">
+                        <img src="https://media.discordapp.net/attachments/603558735910010880/1168250514476122182/image.png?ex=65511513&is=653ea013&hm=17bb5ed61d225e6baae116ea5240aaa217389c05e52e007055517f8d316157a5&=&width=572&height=581" style="height: 140px">
+                        <a href="video.html">Other</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!------------------------contact----------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 style="font-size: 40px;">Contact me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>bossrayong8899@gmail.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i>0928048080</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-youtube"></i></a>
+                </div>
+                <a href="" download class="btn btn2">Download Portfolio</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="text" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" id="" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+        <script>
+
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+
+        </script>
+        <script>
+
+            var sidemenu = document.getElementById("sidemenu");
+            function openmenu(){
+                sidemenu.style.right = "0";
+            }
+            function closemenu(){
+                sidemenu.style.right = "-200px";
+            }
+        </script>
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <footer class="footer-bottom">
+            <p><i class="fa-solid fa-user"></i></p>
+            <p>About this website</p>
+            <p>Copy right 2023 @Tanuthum</p>
+        </footer>
+    </body>
+</html>
